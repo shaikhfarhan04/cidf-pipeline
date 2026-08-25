@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Docker Build') {
             steps {
-                echo 'in branch main'
+                echo 'in branch dev'
                 echo 'Checking Docker version'
                 sh 'docker --version'
 
